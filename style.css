@@ -1,6 +1,12 @@
 body {
-    background-color: #e8e5dc;
-    color: #222222;
+    background-color: #000000;
+    background-image: url("images/BCKGRND.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     margin: 0;
