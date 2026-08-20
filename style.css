@@ -45,3 +45,16 @@ a {
     width: 500px;
     margin-top: 15px;
 }
+
+.albums {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.albums img {
+    width: 165px;
+    height: 165px;
+    object-fit: cover;
+    border: 1px solid #777777;
+}
