@@ -22,10 +22,12 @@ body {
 }
 
 h1 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 28px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
     font-weight: normal;
-    margin-bottom: 8px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 10px 0 8px 0;
 }
 
 h2 {
