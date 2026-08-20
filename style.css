@@ -78,3 +78,21 @@ a:visited {
     object-fit: cover;
     border: 1px solid #777777;
 }
+
+.recording-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px 15px;
+    margin-top: 20px;
+}
+
+.project {
+    text-align: left;
+}
+
+.project img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 1px solid #777777;
+}
