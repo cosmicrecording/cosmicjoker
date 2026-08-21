@@ -100,18 +100,12 @@ a:visited {
 .project-page {
     display: grid;
     grid-template-columns: 1fr 300px;
-    gap: 25px;
+    gap: 10px;
     margin-top: 25px;
 }
 
 .project-info {
     text-align: left;
-}
-
-.project-work {
-    font-style: italic;
-    margin-top: 0;
-    margin-bottom: 25px;
 }
 
 .project-details {
@@ -120,7 +114,6 @@ a:visited {
 
 .project-cover {
     text-align: center;
-    padding-right: 20px;
 }
 
 .project-cover img {
