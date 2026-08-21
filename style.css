@@ -100,7 +100,7 @@ a:visited {
 .project-page {
     display: grid;
     grid-template-columns: 1fr 300px;
-    gap: 40px;
+    gap: 25px;
     margin-top: 25px;
 }
 
@@ -108,8 +108,19 @@ a:visited {
     text-align: left;
 }
 
+.project-work {
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.project-details {
+    font-style: italic;
+}
+
 .project-cover {
-    text-align: left;
+    text-align: center;
+    padding-right: 20px;
 }
 
 .project-cover img {
@@ -126,4 +137,5 @@ a:visited {
 
 .project-title strong {
     font-size: 15px;
+    font-style: italic;
 }
