@@ -134,17 +134,29 @@ a:visited {
     padding-top: 2px;
 }
 
+/* TRACKLIST / NOTES HEADERS */
+
 .project-info h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     margin-top: 8px;
     margin-bottom: 10px;
 }
 
-/* Tracklist + liner notes */
+/* TRACKLIST */
 
-.project-info > p:not(.project-details) {
+.project-info h2:first-child + p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    line-height: 1.35;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* LINER NOTES */
+
+.project-info h2:not(:first-child) + p {
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     line-height: 1.35;
